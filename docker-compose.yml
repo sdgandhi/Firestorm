@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  firestorm:
+    build: .
+    network_mode: host
+    environment:
+      TZ: 'America/Los_Angeles'
+    restart: unless-stopped

@@ -5,6 +5,12 @@ Pixelblaze Firestorm is a centralized control console for [Pixelblaze WiFi LED c
 
 This syncronizes pattern timers and allows switching patterns across all Pixelblaze controllers on a network.
 
+# In this fork
+
+- Docker support (with docker-compose, host networking)
+
+Run with `docker-compose up --build --detach`.
+
 Installation
 ==========
 
